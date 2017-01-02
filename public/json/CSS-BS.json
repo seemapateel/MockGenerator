@@ -1,0 +1,15 @@
+     [
+        {
+            "QUES": " Explain the three main ways to apply CSS styles to a Web page",
+            "ANS": "Inline: Though this method often goes against best practices, it’s easily done by inserting a ‘style’ attribute inside an HTML element:     e.g.) < p style = ”color: blue” > Lorem Ipsum < /p>  Embedded / Internal: Done by defining the head of an HTML document by wrapping characteristics in a < style > tag.  Linked / External: CSS is placed in an external.css file, and linked to the HTML document with a < link > tag.This can also be accomplished using the‘ @import’, however, this can slow page load time and is generally not advised.  "
+        }, {
+            "QUES": " How is the float property implemented in CSS?",
+            "ANS": "Floats allow an element to be positioned horizontally, allowing elements below the floated element to flow around it. Several floating elements can be placed together to make a gallery type layout.  Floats can only accept a left or right value.   e.g.)img {   float: right;   width: 50 px;   margin: 5 px; } To prevent subsequent elements from flowing around the floated element, pass in the clear property, followed by the side you wish to disable(i.e., ‘left’, ‘right’, ‘both’). "
+        }, {
+            "QUES": " How to restore the default property value using CSS?",
+            "ANS": "In short, there’s no easy way to restore to default values to whatever a browser uses . The closest option is to use the ‘initial’ property value, which will restore it to the default CSS values, rather than the browser’s default styles."
+        }, {
+            "QUES": "What are the advantages and disadvantages of External Style Sheets?",
+            "ANS": "The biggest advantages of external style sheets are that they can be applied to multiple documents while being managed from a single style sheet. This keeps code DRY and improves efficiency and convenience. The disadvantages are that it may decrease loading time in some situations. It may also not be practical if there are not enough styling conditions to justify an external sheet."
+        }
+    ]

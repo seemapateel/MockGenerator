@@ -1,0 +1,10 @@
+[
+    {
+        "QUES": "Why do we use jQuery?",
+        "ANS": "Due to following advantages.  Easy to use and learn.  Easily expandable.  Cross-browser support (IE 6.0+, FF 1.5+, Safari 2.0+, Opera 9.0+) Easy to use for DOM manipulation and traversal.  Large pool of built in methods.  AJAX Capabilities.  Methods for changing or applying CSS, creating animations.  Event detection and handling.  Tons of plug-ins for all kind of needs."
+    },
+    {
+        "QUES": "What are the methods used to provide effects?",
+        "ANS": "Some of the effects methods are: Show() Hide() Toggle() FadeIn() and FadeOut()"
+    }
+]

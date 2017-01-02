@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Mock Generator</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    </head>
+    <body ng-app='myApp' ng-controller="myCtrl"> 
+        <div class="container"> 
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MockGen</a>
+                </div>
+                <ul class="nav navbar-nav" id="navgbar">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Topics <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">CSS and Bootstrap</a></li>
+                            <li><a href="#">JQuery</a></li>
+                            <li><a href="#">EMPTY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blah</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <p>Question </p>
+            <p id="question" ng-model="data.question"> 
+              {{data.question}}
+            </p>
+        </div>
+        <div class="well" ng-click="loadAnswer();">
+            <p  > Click here for answer </p>
+            <p id="answer" ng-model="data.answer"> 
+              {{data.answer}}
+            </p>
+        </div>
+        <button type="button" id="backw" class="btn btn-default" ng-click="backwClick();"><span class="glyphicon glyphicon-step-backward"></span>
+        </button>  
+        <button type="button" id="forw" class="btn btn-default" ng-click="forwClick();"><span class="glyphicon glyphicon-step-forward"></span>
+        </button>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+        <script src="js/controller.js"> </script>
+    </body>
+    
+</html>
